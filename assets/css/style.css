@@ -71,6 +71,12 @@ body {
   transition: background-color .4s; /* For dark mode */
 }
 
+/* section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+  align-items: center;
+} */
+
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-bold);
@@ -394,9 +400,16 @@ body.dark-theme{
 }
 
 /*=============== HOME ===============*/
-.home__container{
-  padding-top: 2rem;
+/* .home__container .container .grid{
+  height: 800px;
+} */
+div.home__container{
+  min-height: 100vh;
 }
+
+/* .home__container{
+  padding-top: 2rem;
+} */
 
 .home__name{
   font-size: var(--biggest-font-size);

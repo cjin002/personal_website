@@ -932,17 +932,20 @@ body.dark-theme{
 .project-3__description-title,
 .project-3__denotative-title,
 .project-3__connotative-title,
-.project-3__final-title{
+.project-3__final-title {
   font-size: var(--regular-font-size);
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
+.project-3__posters h2 {
+  text-align: center;
+}
+
 .project-3-img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
+  margin: auto;
+  width: 55%;
   margin-bottom: 1.5rem;
 }
 
@@ -997,10 +1000,6 @@ body.dark-theme{
   font-size: var(--h3-font-size);
 }
 
-/* .text__separator {
-  margin: 1.5rem;
-} */
-
 /*=============== PROJECTS-5 ===============*/
 .project-5{
   margin-top: 1.5rem;
@@ -1026,6 +1025,14 @@ body.dark-theme{
   color: var(--text-color);
   position: relative;
   font-size: var(--h3-font-size);
+}
+
+.project-5-pdf{
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+  margin-bottom: 1.5rem;
 }
 
 /*=============== CONTACT ===============*/
@@ -1776,7 +1783,7 @@ body.dark-theme{
     padding: .5rem;
   }
 
-  #contact-wechat {
+  #contact__wechat {
     position: fixed;
     top: 0;
     left: 0;

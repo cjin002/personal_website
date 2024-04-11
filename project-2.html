@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+  
+        <!--=============== REMIXICONS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" crossorigin="">
+  
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/style.css">
+  
+        <title>Project 2 - Image Generator: Fireworks</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+          <nav class="nav container">
+             <a href="#" class="nav__logo">
+                 <span class="nav__logo-circle">C</span>
+                 <span class="nav__logo-name">Yang(Cindy) Jin's Personal Website</span>
+             </a>
+  
+             <div class="nav__menu" id="nav-menu">
+                 <span class="nav__title">Menu</span>
+  
+                 <h3 class="nav__name">Cindy</h3>
+  
+                 <ul class="nav__list">
+                     <li class="nav__item">
+                         <a href="index.html#home" class="nav__link active-link">Home</a>
+                     </li>
+  
+                     <li class="nav__item">
+                         <a href="index.html#about" class="nav__link">About Me</a>
+                     </li>
+  
+                     <li class="nav__item">
+                         <a href="index.html#projects" class="nav__link">Projects</a>
+                     </li>
+  
+                     <li class="nav__item">
+                         <a href="index.html#contact" class="nav__link nav__link-button">Contact Me</a>
+                     </li>
+                 </ul>
+  
+                 <!-- Close button -->
+                 <div class="nav__close" id="nav-close">
+                     <i class="ri-close-line"></i>
+                 </div>
+             </div>
+  
+             <div class="nav__buttons">
+                 <!-- Theme button -->
+                 <i class="ri-moon-line change-theme" id="theme-button"></i>
+                 <!-- Toggle button -->
+                 <div class="nav__toggle" id="nav-toggle">
+                     <i class="ri-menu-4-line"></i>
+                 </div>
+             </div>  
+          </nav>
+       </header>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+          <!--==================== DESCRIPTION ====================-->
+          <section class="project-2 section" id="home">
+              <div class="project-2__container container grid">
+                  <h1 class="project-2__name">
+                    Image Generator: Fireworks
+                  </h1>
+
+                  <h3 class="project-2__subtitle">
+                    By: Yang(Cindy) Jin, February 2024
+                  </h3>
+  
+                  <div class="project-2__video">
+                      <h2 class="project-1__video-title">
+                          Video Demo
+                      </h2>
+                      <!-- <video width=100% height=auto controls>
+                          <source src="./assets/video/project-2-demo-video.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video> -->
+                  </div>
+  
+                  <div class="project-2__description">
+                      <h2 class="project-2__description-title">
+                          Description
+                      </h2>
+  
+                      <p class="project-2__description-content">
+                        My <b>Python (Pygame)</b> application serves as an image generator that crafts compositions 
+                        of fireworks against diverse backdrops. Upon execution, it prompts the user 
+                        to specify the number of fireworks desired. The program then randomly selects 
+                        one of the stored background images and overlays it with the user-defined 
+                        number of fireworks, placing each firework at a random position. Once the 
+                        image is rendered, the application saves it using an incremental naming 
+                        convention, ensuring each creation is uniquely stored without overwriting 
+                        previous images. The window remains open, displaying the generated 
+                        composition until the user opts to close it manually.
+                      </p>
+                  </div>
+  
+                  <div class="project-2__img">
+                      <h2 class="project-2__image-title">
+                          Some Output Example Images
+                      </h2>
+                      
+                      <div class="project-2__images">
+                        <img src="./assets/image/project-2-images/project-2__image1.png" alt="" class="projects-2-img">
+                        <img src="./assets/image/project-2-images/project-2__image2.png" alt="" class="projects-2-img">
+                        <img src="./assets/image/project-2-images/project-2__image3.png" alt="" class="projects-2-img">
+                        <img src="./assets/image/project-2-images/project-2__image4.png" alt="" class="projects-2-img">
+                      </div>
+
+                  </div>
+  
+              </div>
+          </section>
+  
+  
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script> 
+    </body>
+</html>

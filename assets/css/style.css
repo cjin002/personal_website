@@ -21,6 +21,7 @@
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Bai Jamjuree", sans-serif;
   --biggest-font-size: 2.5rem;
+  --regular-font-size: 2rem;
   --h1-font-size: 1.75rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -630,8 +631,8 @@ body.dark-theme{
 }
 
 .about__shadow{
-  width: 260px;
-  height: 615px;
+  width: 150px;
+  height: 385px;
   background-color: var(--body-color);
   top: -2.5rem;
   right: -3.5rem;
@@ -837,6 +838,194 @@ body.dark-theme{
 
 .projects__card:hover{
   background-color: hsla(183, 45%, 53%, 0.3);
+}
+/*=============== PROJECTS-1 ===============*/
+.project-1{
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.project-1__name{
+  font-size: var(--biggest-font-size);
+  text-align: left;
+}
+
+.project-1__subtitle{
+  color: var(--text-color);
+}
+
+.project-1__video-title,
+.project-1__description-title,
+.project-1__video2-title,
+.project-1__diagram-title{
+  font-size: var(--regular-font-size);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-1-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.project-1__description-content{
+  color: var(--text-color);
+  position: relative;
+  font-size: var(--h3-font-size);
+}
+/*=============== PROJECTS-2 ===============*/
+.project-2{
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.project-2__name{
+  font-size: var(--biggest-font-size);
+  text-align: left;
+}
+
+.project-2__subtitle{
+  color: var(--text-color);
+}
+
+.project-2__video-title,
+.project-2__description-title,
+.project-2__image-title{
+  font-size: var(--regular-font-size);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-2-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.project-2__images img{
+  margin-bottom: 1.5rem;
+}
+
+.project-2__description-content{
+  color: var(--text-color);
+  position: relative;
+  font-size: var(--h3-font-size);
+}
+/*=============== PROJECTS-3 ===============*/
+.project-3{
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.project-3__name{
+  font-size: var(--biggest-font-size);
+  text-align: left;
+}
+
+.project-3__subtitle{
+  color: var(--text-color);
+}
+
+.project-3__description-title,
+.project-3__denotative-title,
+.project-3__connotative-title,
+.project-3__final-title{
+  font-size: var(--regular-font-size);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-3-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  margin-bottom: 1.5rem;
+}
+
+.project-3__description-content{
+  color: var(--text-color);
+  position: relative;
+  font-size: var(--h3-font-size);
+}
+
+/*=============== PROJECTS-4 ===============*/
+.project-4{
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.project-4__name{
+  font-size: var(--biggest-font-size);
+  text-align: left;
+}
+
+.project-4__subtitle{
+  color: var(--text-color);
+}
+
+.project-4__description-title,
+.project-4__contextual-title,
+.project-4__programmatic-title,
+.project-4__cartographic-title
+.project-4__spatial-title,
+.project-4__material-title,
+.project-4__formal-title,
+.project-4__structural-title,
+.project-4__environmental-title,
+.project-4__informational-title,
+.project-4__conceptual-title{
+  font-size: var(--regular-font-size);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-4-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  margin-bottom: 1.5rem;
+}
+
+.project-4__description-content{
+  color: var(--text-color);
+  position: relative;
+  font-size: var(--h3-font-size);
+}
+
+/* .text__separator {
+  margin: 1.5rem;
+} */
+
+/*=============== PROJECTS-5 ===============*/
+.project-5{
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.project-5__name{
+  font-size: var(--biggest-font-size);
+  text-align: left;
+}
+
+.project-5__subtitle{
+  color: var(--text-color);
+}
+
+.project-5__description-title{
+  font-size: var(--regular-font-size);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-5__description-content{
+  color: var(--text-color);
+  position: relative;
+  font-size: var(--h3-font-size);
 }
 
 /*=============== CONTACT ===============*/
@@ -1585,6 +1774,24 @@ body.dark-theme{
   .contact__social-link{
     font-size: 1.5rem;
     padding: .5rem;
+  }
+
+  #contact-wechat {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  #contact__wechat img {
+    max-width: 70%;
+    max-height: 70%;
   }
 
   .contact__message{

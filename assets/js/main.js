@@ -96,6 +96,18 @@ const scrollActive = () =>{
 }
 window.addEventListener('scroll', scrollActive)
 
+// wechat QR code popup out
+    document.getElementById('wechat-icon').addEventListener('click', function(event){
+    event.preventDefault();
+    var popup = document.getElementById('contact__wechat');
+    popup.style.display = 'flex';
+  });
+  
+  // Close the popup when clicking anywhere on the screen
+    document.getElementById('contact__wechat').addEventListener('click', function(){
+    this.style.display = 'none';
+  });
+
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'

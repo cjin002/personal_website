@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+  
+        <!--=============== REMIXICONS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" crossorigin="">
+  
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/style.css">
+  
+        <title>Project 1 - Interactive Music Platform</title>
+    </head>
+    <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+        <nav class="nav container">
+           <a href="#" class="nav__logo">
+               <span class="nav__logo-circle">C</span>
+               <span class="nav__logo-name">Yang(Cindy) Jin's Personal Website</span>
+           </a>
+
+           <div class="nav__menu" id="nav-menu">
+               <span class="nav__title">Menu</span>
+
+               <h3 class="nav__name">Cindy</h3>
+
+               <ul class="nav__list">
+                   <li class="nav__item">
+                       <a href="index.html#home" class="nav__link active-link">Home</a>
+                   </li>
+
+                   <li class="nav__item">
+                       <a href="index.html#about" class="nav__link">About Me</a>
+                   </li>
+
+                   <li class="nav__item">
+                       <a href="index.html#projects" class="nav__link">Projects</a>
+                   </li>
+
+                   <li class="nav__item">
+                       <a href="index.html#contact" class="nav__link nav__link-button">Contact Me</a>
+                   </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                   <i class="ri-close-line"></i>
+               </div>
+           </div>
+
+           <div class="nav__buttons">
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                   <i class="ri-menu-4-line"></i>
+               </div>
+           </div>  
+        </nav>
+     </header>
+      <!--==================== MAIN ====================-->
+      <main class="main">
+        <!--==================== DESCRIPTION ====================-->
+        <section class="project-1 section" id="home">
+            <div class="project-1__container container grid">
+                <h1 class="project-1__name">
+                    Interactive Music Platform
+                </h1>
+
+                <h3 class="project-1__subtitle">
+                    By: Yang(Cindy) Jin, Zijie(Sam) Qiu, March 2024
+                </h3>
+
+                <a href="https://editor.p5js.org/cjin002/full/3vBgUDdVL" target="_blank"> Link to p5.js</a>
+
+                <div class="project-1__video">
+                    <h2 class="project-1__video-title">
+                        Demo Video
+                    </h2>
+                    <video width=100% height=auto controls>
+                        <source src="./assets/video/project-1-demo-video.mp4" type="video/mp4" class="project-1-video">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="project-1__description">
+                    <h2 class="project-1__description-title">
+                        Description of Vision
+                    </h2>
+
+                    <p class="project-1__description-content">
+                        This project aims to create an innovative music platform that integrates <b>p5.js</b> 
+                        and <b>Makey Makey</b> to transform digital music interaction into a tactile and engaging 
+                        experience. By mapping basic music playback controls—such as volume adjustment, 
+                        playlist navigation, play/pause, and shuffle /play in order—to physical keys 
+                        controlled by Makey Makey, it seeks to bridge the gap between the digital and 
+                        physical realms, making the act of listening to music a more dynamic and immersive 
+                        activity. Inspired by the digital innovation of platforms like Spotify and Amazon 
+                        Music, this project aspires to redefine how users interact with music, turning it 
+                        into an expressive form of creative play. It targets not just enhancing personal 
+                        enjoyment but also inspiring users to explore new dimensions of engaging with digital 
+                        media, making music consumption not only more accessible but also a catalyst for 
+                        creativity and physical activity.
+                    </p>
+                </div>
+
+                <div class="project-1__video2">
+                    <h2 class="project-1__video2-title">
+                        p5.js Portion
+                    </h2>
+                    <video width=100% height=auto controls>
+                        <source src="./assets/video/project-1-p5video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="project-1__diagram">
+                    <h2 class="project-1__diagram-title">
+                        A Diagram of the Work and Interaction
+                    </h2>
+
+                    <img src="./assets/image/project-1-diagram.jpg" alt="Diagram" class="project-1-img">
+                </div>
+
+            </div>
+        </section>
+
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script> 
+    </body>
+</html>

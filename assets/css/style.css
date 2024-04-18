@@ -849,6 +849,7 @@ body.dark-theme{
 } */
 .back__button{
   margin-top: 4rem;
+  
 }
 
 .back__button-text{
@@ -863,12 +864,19 @@ body.dark-theme{
   color: var(--white-color);
   width: 45px;
   height: 45px;
-  display: grid;
+  /* display: grid; */
+  display: inline-flex;
   place-items: center;
   font-size: 1.5rem;
   cursor: pointer;
   overflow: hidden;
   transition: background-color .4s;
+  margin-right: 0.5rem;
+}
+
+.ri-arrow-go-back-line{
+  margin-left: 10px;
+  color: var(--white-color);
 }
 
 .back__button-box:hover{
